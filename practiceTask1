@@ -1,0 +1,18 @@
+//Smalles Name
+const names = ['Moinul Islam Umair', "Satyam Dhar", "Ummul Wara Mimfa", "Halima", "Tantu"];
+
+let smallestName = names[0]; 
+for (const name of names) {  
+    if (name.length < smallestName.length) {
+        smallestName = name;
+    }
+}
+console.log(smallestName);
+//Largest Name
+let largestName = names[0]; 
+for (const name of names) {  
+    if (name.length > largestName.length) {
+        largestName = name;
+    }
+}
+console.log(largestName); 
